@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Open with Prefix",
+    "description": "Opens links with a user-defined prefix",
+    "version": "1.0",
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "storage"
+    ],
+    "background": {
+        "service_worker": "open-with-prefix.js"
+    }
+  }
