@@ -10,5 +10,8 @@
     ],
     "background": {
         "service_worker": "open-with-prefix.js"
-    }
+    },
+    "action": {
+        "default_popup": "popup.html"
+      }
   }
